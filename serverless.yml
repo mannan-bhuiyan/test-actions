@@ -8,9 +8,9 @@ provider:
   memorySize: 512
   timeout: 15
 functions:
-  hello:
+  BJIT:
     handler: handler.generateRandomNumber
-    events: 
-    - http: ANY {proxy+}
-    - http: ANY /
+    # events: 
+    # - http: ANY {proxy+}
+    # - http: ANY /
     
