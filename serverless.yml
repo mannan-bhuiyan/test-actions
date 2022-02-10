@@ -5,7 +5,8 @@ provider:
   runtime: nodejs14.x
   stage: main
   region: us-east-1
-
+  memorySize: 512
+  timeout: 15
 functions:
   hello:
     handler: handler.generateRandomNumber
