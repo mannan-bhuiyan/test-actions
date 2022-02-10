@@ -5,11 +5,11 @@ provider:
   runtime: nodejs14.x
   stage: main
   region: us-east-1
-  timeout: 30 # seconds
-  memorySize: 128 # mb
 
 functions:
-  BJIT:
+  hello:
     handler: handler.generateRandomNumber
+    events: 
     - http: ANY {proxy+}
     - http: ANY /
+    
