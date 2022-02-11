@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         node-version: [14.x]
-    # Stepls represent a sequence of tasks that will be executed as a part of the job 
+    # Steps represent a sequence of tasks that will be executed as a part of the job 
     steps:
 
     - uses: actions/checkout@v2  # Telling the gitactions workflows to download the content of repo within current workspace
