@@ -1,4 +1,4 @@
-service: githubaction-lambda-test
+service: githubaction-lambda-deploy
 
 provider:
   name: aws
